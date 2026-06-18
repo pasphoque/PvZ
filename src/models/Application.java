@@ -44,9 +44,4 @@ public class Application {
         this.isRunning = false;
         System.out.println("Exiting the application. Goodbye!");
     }
-
-    public static void main(String[] args) {
-        Application app = new Application();
-        app.run();
-    }
 }
