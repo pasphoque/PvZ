@@ -8,6 +8,7 @@ public enum Command {
     LOGIN("(?i)^login\\s+-u\\s+(?<username>\\S+)\\s+-p\\s+(?<password>\\S+)(?<stayLoggedIn>\\s+-stay-logged-in)?$"),
     MENU_ENTER("(?i)^menu\\s+enter\\s+(?<menuName>.+)$"),
     MENU_EXIT("(?i)^menu\\s+exit$"),
+    MENU_LOGOUT("(?i)^menu\\s+logout$"),
     UNKNOWN("");
 
     private final Pattern pattern;

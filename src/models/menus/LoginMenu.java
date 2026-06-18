@@ -31,7 +31,7 @@ public class LoginMenu extends BaseMenu {
                 app.setActiveUser(user);
                 view.displaySuccess("Welcome back, " + user.getNickname() + "!");
 
-                // app.changeMenuState(new MainMenu()); // Uncomment this once MainMenu is created
+                app.changeMenuState(new MainMenu()); // Uncomment this once MainMenu is created
                 break;
 
             case MENU_ENTER:
